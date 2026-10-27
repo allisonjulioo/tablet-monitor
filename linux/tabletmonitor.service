@@ -1,0 +1,12 @@
+[Unit]
+Description=Tablet Android como monitor estendido pela USB
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=%h/.local/bin/tabletmonitor
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target

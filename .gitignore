@@ -1,0 +1,11 @@
+# Android
+android/.gradle/
+android/.kotlin/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+
+# Python
+__pycache__/
